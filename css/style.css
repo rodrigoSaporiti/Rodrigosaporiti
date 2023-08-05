@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(244, 243, 243);
+}
+
+h1{
+    font-family: 'Carter One', cursive;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 2%;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+
+
+.imagen{
+    background-image: url(../img/1.png);
+    width: 20px;
+    height: 20px;
+    padding: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+
+.navegacion{
+    margin-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Carter One', cursive;
+    font-size: 50px;
+    margin: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+ .navegacion a:hover{
+    background-color: rgb(9, 165, 226);
+    font-size: 60px;
+}
+
+.bloque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.Educacion{
+    text-align: center;
+}
+
+ul{
+    text-align: left;
+    display: inline-block;
+}
+
+.Experiencia{
+    text-align: center;
+}
+
+.tabla{
+    width: 50% ;
+    border: solid black;
+    margin: 0 auto;
+    border-spacing: 0;
+    margin-bottom: 50px;
+}
+
+th, td{
+    border: 1px solid rgb(0, 0, 0) ;
+}
+
+#educacion_id{
+    font-size: 40px;
+}
+
+#Experiencia_laboral_id{
+    font-size: 40px;
+}
+
+
+/* Contacto */
+
+#Contacto_id{
+    text-align: center;
+    font-size: 40px;
+}
+
+.Formulario{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: 20px;
+}
+
+textarea{
+    text-align: center;
+    padding: 100px;
+}
+
+.boton{
+   background-color: black;
+   color: white;
+   cursor: pointer;
+}
+
